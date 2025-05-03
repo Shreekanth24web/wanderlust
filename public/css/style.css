@@ -18,18 +18,19 @@ body {
 .navbar {
     /* height: 5rem; */
     background-color: #fff;
-    position:fixed !important;
+    position: fixed !important;
     top: 0px;
     z-index: 1 !important;
-    
+
 }
 
-.main-content{
+.main-content {
     /* background-color: red; */
     position: sticky !important;
     top: 0px;
     margin-top: 100px;
 }
+
 .fa-compass {
     color: #fe424d;
     font-size: 2rem;
@@ -175,13 +176,34 @@ body {
 }
 
 .add-form,
-.edit-form {
+.edit-form,
+.login-form,
+.signup-form {
     background-color: #f609092a;
     padding: 20px;
     border-radius: 20px;
     box-shadow: -1px 1px 8px;
     width: 90%;
 }
+
+.login-form {
+    width: 60%;
+    margin-top: 15vh;
+}
+.signup-form {
+    margin-top: 10vh;
+
+}
+.login-head,
+.signup-head {
+    background-color: #fe424f;
+    box-shadow: -1px 1px 5px black;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 20px;
+    padding: .5rem;
+}
+ 
 
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
@@ -193,26 +215,36 @@ input[type="number"]::-webkit-outer-spin-button {
 .show-img {
     height: 40vh;
 }
-.show-page{
-    margin-top: 80px !important;
-}
-.edit-page{
-    margin-top: 80px !important;
-}
-.new-page{
-    margin-top: 80px !important;
-}
-.signup-page{
-    margin-top: 80px !important;
-}
-.error-flash{
-    margin-top: 80px ;
-}
-.success-flash{
-    margin-top: 80px ;
-}
-/* edit-img */
 
+.show-page {
+    margin-top: 80px !important;
+}
+
+.edit-page {
+    margin-top: 80px !important;
+}
+
+.new-page {
+    margin-top: 80px !important;
+}
+
+.signup-page {
+    margin-top: 80px !important;
+}
+
+.login-page {
+    margin-top: 80px !important;
+}
+
+.success-flash {
+    margin-top: 80px !important;
+}
+.error-flash {
+    margin-top: 80px !important ;
+}
+
+
+/* edit-img */
 .original-img {
     /* height: 30vh; */
     width: 15rem;
@@ -257,7 +289,7 @@ input[type="number"]::-webkit-outer-spin-button {
 .filter:hover {
     opacity: 1;
     cursor: pointer;
-} 
+}
 
 /* Tax info */
 
