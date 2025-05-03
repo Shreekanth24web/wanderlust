@@ -1,0 +1,286 @@
+body {
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+/* Navbar */
+.navbar {
+    /* height: 5rem; */
+    background-color: #fff;
+    position:fixed !important;
+    top: 0px;
+    z-index: 1 !important;
+    
+}
+
+.main-content{
+    /* background-color: red; */
+    position: sticky !important;
+    top: 0px;
+    margin-top: 100px;
+}
+.fa-compass {
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.navbar-toggler-icon {
+    font-size: 1rem;
+
+}
+
+.nav-link {
+    color: #222222 !important;
+}
+
+.nav-link:hover {
+    background-color: #f609092a !important;
+    height: 2.5rem !important;
+    border-radius: 8px;
+    padding-left: 5px;
+    transition: all 1s ease-out;
+}
+
+.btn-search {
+    background-color: #fe424d !important;
+    color: #fff !important;
+    border-radius: 25px !important;
+    padding: 0 1rem 0 1rem !important;
+    font-size: 1.1rem !important;
+
+}
+
+.btn-search:hover {
+    background-color: #fe424d !important;
+    color: #fff !important;
+}
+
+.btn-search i {
+    display: inline !important;
+    margin-right: 0.5rem !important;
+}
+
+.form-search {
+    border-radius: 25px !important;
+    padding: 0.5rem 2rem 0.5rem 2rem !important;
+    width: 30rem !important;
+    font-size: 1.2rem !important;
+}
+
+/* footer */
+.f-info {
+    display: flex;
+    height: 8rem;
+    background-color: #ebebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i {
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+    margin-right: 1rem;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+    color: #222222;
+}
+
+/* Cards */
+.listing-head {
+    margin-left: 1rem;
+
+}
+
+.listing-card {
+    border: none !important;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text P {
+    font-weight: 400 !important;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+/* card effect */
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.6;
+    background-color: white;
+}
+
+.card-title {
+    font-weight: 800;
+}
+
+.card-img-overlay P {
+    color: #000000;
+}
+
+.add-btn,
+.edit-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+    width: 100%;
+    font-weight: bold !important;
+}
+
+/* form */
+.form-label {
+    font-weight: 600;
+}
+
+.add-form,
+.edit-form {
+    background-color: #f609092a;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: -1px 1px 8px;
+    width: 90%;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* show page */
+.show-img {
+    height: 40vh;
+}
+.show-page{
+    margin-top: 80px !important;
+}
+.edit-page{
+    margin-top: 80px !important;
+}
+.new-page{
+    margin-top: 80px !important;
+}
+.signup-page{
+    margin-top: 80px !important;
+}
+.error-flash{
+    margin-top: 80px ;
+}
+.success-flash{
+    margin-top: 80px ;
+}
+/* edit-img */
+
+.original-img {
+    /* height: 30vh; */
+    width: 15rem;
+    border-radius: 8px;
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+}
+
+.show-text {
+    line-height: 15px;
+}
+
+.show-text-des {
+    line-height: 18px;
+}
+
+.review-card {
+    display: flex !important;
+    flex-grow: 1 !important;
+}
+
+/* Home page filters */
+#filters {
+    margin-top: 1rem;
+}
+
+.filter i {
+    font-size: 2rem;
+}
+
+.filter {
+    text-align: center;
+    margin-right: 2rem;
+    opacity: 0.7;
+}
+
+.filter:hover {
+    opacity: 1;
+    cursor: pointer;
+} 
+
+/* Tax info */
+
+.tax-info {
+    display: none;
+}
+
+.tax-toggel {
+    border: 1px solid black;
+    border-radius: 2rem;
+    height: 3.4rem;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 18px;
+    width: 20rem;
+    margin-left: 2.5rem;
+}
+
+.form-check-input:checked {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+}
+
+.form-check-input:focus {
+    box-shadow: none !important;
+}
